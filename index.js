@@ -16,7 +16,11 @@ const player = new Player({
 		width: 25,
 		height: 50
 	},
-	color: "rgb(168, 27, 29)"
+	color: "rgb(168, 27, 29)",
+	image: {
+		imageSrc: "./assets/images/patateBleu.png"
+	},
+	name: "Patate Bleu"
 })
 
 const keys = {
